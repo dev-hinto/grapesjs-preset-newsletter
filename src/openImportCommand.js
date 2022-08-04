@@ -6,6 +6,7 @@ define(function() {
     let container = document.createElement("div");
     let pfx = opt.pfx || '';
     // Init import button
+    btnImp.type = 'button';
     btnImp.innerHTML = opt.modalBtnImport;
     btnImp.className = pfx + 'btn-prim ' + pfx + 'btn-import';
     btnImp.onclick = () => {
